@@ -1,0 +1,28 @@
+{
+  "name": "cli-create",
+  "version": "1.0.0",
+  "description": "node脚手架搭建",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baymax1402/cli-create.git"
+  },
+  "bin": {
+    "my-cli": "bin.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baymax1402/cli-create/issues"
+  },
+  "homepage": "https://github.com/baymax1402/cli-create#readme",
+  "dependencies": {
+    "commander": "^7.0.0",
+    "cross-spawn": "^7.0.3",
+    "mkdirp": "^1.0.4"
+  }
+}
