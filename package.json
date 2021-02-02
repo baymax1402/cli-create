@@ -11,7 +11,7 @@
     "url": "git+https://github.com/baymax1402/cli-create.git"
   },
   "bin": {
-    "my-cli": "bin.js"
+    "test-cli": "./bin/index.js"
   },
   "keywords": [],
   "author": "",
@@ -21,8 +21,10 @@
   },
   "homepage": "https://github.com/baymax1402/cli-create#readme",
   "dependencies": {
+    "chalk": "^4.1.0",
     "commander": "^7.0.0",
     "cross-spawn": "^7.0.3",
+    "inquirer": "^7.3.3",
     "mkdirp": "^1.0.4"
   }
 }
